@@ -1,0 +1,60 @@
+body{
+    font-family: "Lato", sans-serif;
+
+}
+
+.sidebar{
+    background-color: #111;
+    width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    color: #949494;
+    padding: 10px 25px;
+    transition: 0.3s;
+    font-size: 25px;
+}
+.sidebar a:hover{
+    color: white;
+}
+.sidebar a:active{
+    color: wheat;
+}
+.sidebar .closebtn{
+    position: absolute;
+    top: 0;
+    right: 17px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.openbtn{
+    padding: 5px 10px;
+    color: #949494;
+    font-size: 25px;
+    background-color: #111;
+    border: none;
+    cursor: pointer;
+}
+.openbtn:hover {
+    color: white;
+
+}
+.openbtn:active{
+    color: wheat;
+    background-color: #111;
+}
